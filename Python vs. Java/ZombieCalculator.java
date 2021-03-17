@@ -3,16 +3,15 @@ import java.util.Scanner;
 public class ZombieCalculator {
 
     public static void main(String[] args) {
-	int startingPopulation, daysOFPredictor, totalZombies, runningTotal, 
-	numberOFZombies, newZombies;
+	int startingPopulation, daysOFPredictor, totalZombies, runningTotal, newZombies;
 	double growthRate;
 
-        Scanner keyboard = new Scanner(System.in);
+    Scanner keyboard = new Scanner(System.in);
 	
 
-        //Get zombie population on day 0
-        System.out.print("Enter starting zombie population: ");
-        startingPopulation = keyboard.nextInt();
+    //Get zombie population on day 0
+    System.out.print("Enter starting zombie population: ");
+    startingPopulation = keyboard.nextInt();
 
 	if (startingPopulation <= 1) {
 		System.out.println("\nError: Starting Population must be at least 2");
@@ -28,19 +27,19 @@ public class ZombieCalculator {
 		System.exit(0);
 	}
 
-        //Get number of days to predict
-        System.out.print("Enter number of days for predictor to run: ");
-        daysOFPredictor = keyboard.nextInt();
+    //Get number of days to predict
+    System.out.print("Enter number of days for predictor to run: ");
+    daysOFPredictor = keyboard.nextInt();
 	
 	if (daysOFPredictor <= 0) {
 		System.out.println("\nError: number of days for predictor must be at least 1");
 		System.exit(0);
 	}
 
-        //Print input data
-        System.out.printf("\nStarting with %d zombies and growing at %.1f",
-                startingPopulation, growthRate);
-        System.out.println("%");
+    //Print input data
+    System.out.printf("\nStarting with %d zombies and growing at %.1f",
+            startingPopulation, growthRate);
+    System.out.println("%");
 
 	//Print Formating
 	System.out.print("\n\t\t  New\t        Total\n");
