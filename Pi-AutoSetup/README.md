@@ -1,5 +1,5 @@
 # Pi Setup AutoInstaller is a free and open source easy setup tool for Raspberry Pi
-
+-----------------------------------------------------------------------------------
 ## Pi Setup AutoInstaller has three different installers:
 
  - install.sh
