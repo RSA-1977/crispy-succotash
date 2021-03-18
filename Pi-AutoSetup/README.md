@@ -1,6 +1,6 @@
 # Pi-AutoSetup is an easy setup tool for Raspberry Pi
 -----------------------------------------------------------------------------------
-## Pi Setup AutoInstaller has three different installers:
+## Pi-AutoSetup has three different installers:
 
  - install.sh
  - wifi.sh
