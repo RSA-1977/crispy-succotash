@@ -1,4 +1,5 @@
-## RustServer-AutoSetup will install Rust Server on Debian Based Servers
+# RustServer-AutoSetup will install Rust Server on Debian Based Servers
+-----------------------------------------------------------------------
 ## Usage
 
 First, get the script and make it executable:
