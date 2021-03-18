@@ -3,15 +3,10 @@
 
 First, get the script and make it executable:
 
-Download the file:
-
-```bash
-chmod +x Rustsetup.sh
-```
-
-Then run it:
+Download the file then run it:
 
 ```sh
+chmod +x Rustsetup.sh
 ./Rustsetup.sh
 ```
 
