@@ -16,7 +16,7 @@ install.sh will:
  - Conect to wireless(Optional)
  - Conect to bluetooth(Optional)
 
-#wifi.sh
+##wifi.sh
 Type "sudo bash wifi.sh" while in the Pi-Setup-AutoInstaller folder to start
 
 wifi.sh will allow your pi to connect to wireless
