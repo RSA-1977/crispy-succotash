@@ -1,9 +1,9 @@
 ## RustServer-AutoSetup will install Rust Server on Debian Based Servers
 ## Usage
 
-First, download the file:
+First, get the script and make it executable:
 
-Next, get the script and make it executable:
+Download the file:
 
 ```bash
 chmod +x Rustsetup.sh
